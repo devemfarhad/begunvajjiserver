@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 // midleware
 app.use(
   cors({
-    origin: ["http://localhost:5000", "http://localhost:5174", "http://localhost:3000"],
+    origin: ["https://begun-vajji.web.app", "https://begun-vajji.firebaseapp.com", "http://localhost:3000"],
     credentials: true,
   })
 );
